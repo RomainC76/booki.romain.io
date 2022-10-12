@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Chaventre_Romain_3_CSS_30092022/Normalize.css">
+    <script src="https://kit.fontawesome.com/915055bd0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Chaventre_Romain_3_CSS_30092022/BookiCSS.css">
+    <link rel="stylesheet" href="Chaventre_Romain_3_CSS_30092022/Media_query_tablettes.css">
+    <link rel="stylesheet" href="Chaventre_Romain_3_CSS_30092022/Media_query_portables.css">
+    <title>IndexBooki</title>
+</head>
+
+<body>
+	<!--HEADER -->
+	<header>
+		<nav>
+			<a href="#" class="logo" title="Booki"><img class="logo_i" src="Chaventre_Romain_2_images_30092022/logo/Booki@3x.png" alt="Logo Booki"></a>
+			<ul>
+				<li class="heb"><a href="#hebergements">Hébergements</a></li>
+				<li class="act"><a href="#activites">Activités</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--RECHERCHE-->
+	<section class="Recherche">
+		<div class="premier_titre">
+			<h1> Trouvez votre hébergement pour des vacances de rêve </h1>
+			<p>
+				En plein centre ville ou en pleine nature 
+			</p>
+		</div>
+		<form class="barre_de_recherche" method="post" action="traitement.php">
+			<p>
+				<span class="button_i"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+				<input type="search" value="Marseille, France" size="30" maxlength="10">
+				<button disabled>
+					<span class="dekstop"> Rechercher </span>
+					<span class="mobile"><i class="fa-solid fa-magnifying-glass"></i></span>
+				</button>
+			</p>
+		</form>
+		<!--Filtres-->
+		<div class="filtres">
+			<h2>Filtres</h2>
+			<div class="filtres-items">
+				<i class="fa-solid fa-money-bill-wave"></i>
+				<input type="checkbox" id="economique">
+				<label for="economique"> Economique </label>
+			</div>
+			<div class="filtres-items">
+				<i class="fa-solid fa-child-reaching"></i>
+				<input type="checkbox" id="familial">
+				<label for="familial"> Familial</label>
+			</div>
+			<div class="filtres-items">
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<input type="checkbox" id="romantique">
+				<label for="romantique">Romantique</label>
+			</div>
+			<div class="filtres-items">
+				<i class="fa-solid fa-dog"></i>
+				<input type="checkbox" id="animaux">
+				<label for="animaux">Animaux autorisés</label>
+			</div>
+		</div>
+		<!--Informations-->
+		<div class="bouton_info">
+			<p>
+				<i class="fa-solid fa-info"></i>
+				<em>Plus de 500 logements sont disponibles dans cette ville</em>
+			</p>
+		</div>
+	</section>
+	<main>
+		<!--Hébergements-->
+		<section id="hebergements">
+			<!--Hébergements à Marseille-->
+			<article class="hebergements_a_marseille">
+				<h2>Hébergements à Marseille</h2>
+				<div class="cardh">
+					<!--Article1-->
+					<a href="#">
+						<figure>
+							<img src="Chaventre_Romain_2_images_30092022/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière">
+							<figcaption>
+								<h3>Auberge de la Cannebière</h3>
+								<p>
+									Nuit à partir de 
+									<em> 25€ </em>
+									<p>
+										<!-- Etoiles -->
+										<div class="etoiles_bleu">
+											<i class="fa-solid fa-star fa-xs"></i>
+											<i class="fa-solid fa-star fa-xs"></i>
+											<i class="fa-solid fa-star fa-xs"></i>
+											<i class="fa-solid fa-star fa-xs"></i>
+										</div>
+										<div class="etoiles_blanche">
+											<i class="fa-solid fa-star fa-xs"></i>
+										</div>
+									</figcaption>
+								</figure>
+							</a>
+							<!--article2-->
+							<a href="#">
+								<figure>
+									<img src="Chaventre_Romain_2_images_30092022/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+									<figcaption>
+										<h3>Hôtel du port</h3>
+										<p>
+											Nuit à partir de 
+											<em> 52€ </em>
+											<p>
+												<!-- Etoiles -->
+												<div class="etoiles_bleu">
+													<i class="fa-solid fa-star fa-xs"></i>
+													<i class="fa-solid fa-star fa-xs"></i>
+													<i class="fa-solid fa-star fa-xs"></i>
+													<i class="fa-solid fa-star fa-xs"></i>
+													<i class="fa-solid fa-star fa-xs"></i>
+												</div>
+											</figcaption>
+										</figure>
+									</a>
+									<!--article 3-->
+									<a href="#">
+										<figure>
+											<img src="Chaventre_Romain_2_images_30092022/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les Mouettes">
+											<figcaption>
+												<h3>Hôtel les Mouettes</h3>
+												<p>
+													Nuit à partir de 
+													<em> 76€ </em>
+													<p>
+														<!-- Etoiles -->
+														<div class="etoiles_bleu">
+															<i class="fa-solid fa-star fa-xs"></i>
+															<i class="fa-solid fa-star fa-xs"></i>
+															<i class="fa-solid fa-star fa-xs"></i>
+															<i class="fa-solid fa-star fa-xs"></i>
+														</div>
+														<div class="etoiles_blanche">
+															<i class="fa-solid fa-star fa-xs"></i>
+														</div>
+													</figcaption>
+												</figure>
+											</a>
+											<!--article 4-->
+											<a href="#">
+												<figure>
+													<img src="Chaventre_Romain_2_images_30092022/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+													<figcaption>
+														<h3>Hôtel de la mer</h3>
+														<p>
+															Nuit à partir de 
+															<em> 46€ </em>
+															<p>
+																<!-- Etoiles -->
+																<div class="etoiles_bleu">
+																	<i class="fa-solid fa-star fa-xs"></i>
+																	<i class="fa-solid fa-star fa-xs"></i>
+																	<i class="fa-solid fa-star fa-xs"></i>
+																</div>
+																<div class="etoiles_blanche">
+																	<i class="fa-solid fa-star fa-xs"></i>
+																	<i class="fa-solid fa-star fa-xs"></i>
+																</div>
+															</figcaption>
+														</figure>
+													</a>
+													<!--article 5-->
+													<a href="#">
+														<figure>
+															<img src="Chaventre_Romain_2_images_30092022/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
+															<figcaption>
+																<h3>Auberge le panier</h3>
+																<p>
+																	Nuit à partir de 
+																	<em> 23€ </em>
+																	<p>
+																		<!-- Etoiles -->
+																		<div class="etoiles_bleu">
+																			<i class="fa-solid fa-star fa-xs"></i>
+																			<i class="fa-solid fa-star fa-xs"></i>
+																			<i class="fa-solid fa-star fa-xs"></i>
+																			<i class="fa-solid fa-star fa-xs"></i>
+																		</div>
+																		<div class="etoiles_blanche">
+																			<i class="fa-solid fa-star fa-xs"></i>
+																		</div>
+																	</figcaption>
+																</figure>
+															</a>
+															<!--article 6-->
+															<a href="#">
+																<figure>
+																	<img src="Chaventre_Romain_2_images_30092022/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+																	<figcaption>
+																		<h3>Hôtel chez Amina</h3>
+																		<p>
+																			Nuit à partir de 
+																			<em> 96€ </em>
+																			<p>
+																				<!-- Etoiles -->
+																				<div class="etoiles_bleu">
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																				</div>
+																			</figcaption>
+																		</figure>
+																	</a>
+																</div>
+																<p>
+																	Afficher plus
+																</p>
+															</article>
+															<!--Les plus populaires-->
+															<aside class="les_plus_populaires">
+																<h2 class="titre_pop">Les plus populaires <i class="fa-solid fa-star"></i></h2>
+																<div class="cardl">
+																	<!--Article 1-->
+																	<a href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel matin">
+																			<figcaption>
+																				<h3>Hôtel Le soleil du matin</h3>
+																				<p>
+																					Nuit à partir de 128€ 
+																				</p>
+																				<div class="etoiles_bleu">
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																				</div>
+																			</figcaption>
+																		</figure>
+																	</a>
+																	<!--Article 2-->
+																	<a href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="au coeur de l'eau">
+																			<figcaption>
+																				<h3>Au coeur de l'eau Chambres d'hôtes</h3>
+																				<p>
+																					Nuit à partir de 71€
+																				</p>
+																				<div class="etoiles_bleu">
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<div class="etoiles_blanche">
+																						<i class="fa-solid fa-star fa-xs"></i>
+																					</div>
+																				</div>
+																			</figcaption>
+																		</figure>
+																	</a>
+																	<!--Article 3-->
+																	<a href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="tout bleu et blanc">
+																			<figcaption>
+																				<h3>Hôtel Tout bleu et Blanc</h3>
+																				<p>
+																					Nuit à partir de 68€
+																				</p>
+																				<div class="etoiles_bleu">
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<i class="fa-solid fa-star fa-xs"></i>
+																					<div class="etoiles_blanche">
+																						<i class="fa-solid fa-star fa-xs"></i>
+																					</div>
+																				</div>
+																			</figcaption>
+																		</figure>
+																	</a>
+																</div>
+															</aside>
+														</section>
+														<!--Activités à Marseille-->
+														<section id="activites">
+															<h2>Activités à Marseille</h2>
+															<div class="carda">
+																<div class="simple">
+																	<a class="port" href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
+																			<figcaption>
+																				<h3>Vieux Port</h3>
+																			</figcaption>
+																		</figure>
+																	</a>
+																</div>
+																<div class="double">
+																	<a class="fort_pomegues" href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+																			<figcaption>
+																				<h3>Fort de Pomègues</h3>
+																			</figcaption>
+																		</figure>
+																	</a>
+																	<a class="ile_frioul" href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
+																			<figcaption>
+																				<h3>Îles du Frioul</h3>
+																			</figcaption>
+																		</figure>
+																	</a>
+																</div>
+																<div class="simple">
+																	<a class="parc_national" href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
+																			<figcaption>
+																				<h3>Parc National des Calanques</h3>
+																			</figcaption>
+																		</figure>
+																	</a>
+																</div>
+																<div class="double">
+																	<a class="notre_dame" href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-dame-de-la-garde">
+																			<figcaption>
+																				<h3>Notre-Dame-De-La-Garde</h3>
+																			</figcaption>
+																		</figure>
+																	</a>
+																	<a class="parc_longchamp" href="#">
+																		<figure>
+																			<img src="Chaventre_Romain_2_images_30092022/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+																			<figcaption>
+																				<h3>Parc Longchamp</h3>
+																			</figcaption>
+																		</figure>
+																	</a>
+																</div>
+															</div>
+														</section>
+													</main>
+													<!--Footer-->
+													<footer>
+														<div class="card_footer">
+															<h3>A propos</h3>
+															<ul>
+																<li>Fonctionnement du site</li>
+																<li>Conditions générales de ventes</li>
+																<li>Données et confidentialité</li>
+															</ul>
+														</div>
+														<div class="card_footer">
+															<h3>Nos hébergements</h3>
+															<ul>
+																<li>Charte qualité</li>
+																<li>Soumettre votre hôtel</li>
+															</ul>
+														</div>
+														<div class="card_footer">
+															<h3>Assistance</h3>
+															<ul>
+																<li>Centre d'aide</li>
+																<li>Nous contacter</li>
+															</ul>
+														</div>
+													</footer>
+												</body>
+											</html>
