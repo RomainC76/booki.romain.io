@@ -1,0 +1,800 @@
+/*Elements principaux*/
+*
+{
+	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+}
+
+p
+{
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
+}
+
+h1 h2
+{
+	font-size: 20px;
+	font-weight: 700;
+	display: inline !important;
+}
+
+h4
+{
+	margin: 0px;
+}
+
+main
+{
+	width: 100%;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+h3
+{
+	font-size: 14px;
+}
+
+body
+{
+	max-width: 1400px;
+	display: flex;
+	flex-direction: column;
+	margin:auto;
+}
+
+header
+{
+	width: 100%;
+	max-width: 1440px;
+}
+
+nav
+{
+	display: flex;
+	margin: 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.heb
+{
+	display: flex;
+}
+
+.act
+{
+	display: flex;
+}
+
+.logo
+{
+	width: 96.9px;
+	height: 45.9px;
+	display: flex;
+}
+
+/*navigation/header*/
+nav ul
+{
+	display: flex;
+	list-style: none;
+	font-size: 17px;
+	margin: 0px;
+}
+
+nav ul li
+{
+	margin: 0px;
+}
+
+nav ul li a
+{
+	color: black;
+	border-top: 3px solid transparent;
+	text-decoration: none;
+	padding: 40px 25px 15px 25px;
+}
+
+nav ul li a:hover
+{
+	color: #0065fc;
+	border-color:#0065fc ;
+}
+
+/*Recherche*/
+.Recherche
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-content: center;
+	margin: auto;
+	padding-left: 20px;
+	row-gap: 20px;
+}
+
+.premier_titre
+{
+	display:flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.premier_titre h1
+{
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+form p
+{
+	display: flex;
+	width: 600px ;
+	height: 60px;
+	display: flex;
+	border-radius: 0px;
+	margin-left: 0px;
+}
+
+form button
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	width: auto;
+	background-color: #0065fc;
+	font-weight: bolder;
+	font-size: 18px;
+	border-radius: 0px 15px 15px 0px;
+	border-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+.mobile
+{
+	display: none;
+}
+
+.button_i
+{
+	text-align: center;
+	padding-top: 15px;
+	width: 60px;
+	cursor: pointer;
+	font-size:x-large;
+	background-color: #f2f2f2;
+	border: solid 2px transparent;
+	height: 60px;
+	border-radius: 15px 0px 0px 15px;
+}
+
+.Recherche input
+{
+	margin: 0px;
+	width: 240px;
+	height: 60px;
+	font-size: 20px;
+	border: 3px solid ;
+	border-right: transparent;
+	font-weight: 700;
+	writing-mode: horizontal-tb !important ;
+	border-color: #f2f2f2;
+	padding-left: 20px;
+}
+
+/*Filtres*/
+.filtres
+{
+	display: flex;
+	gap: 43px;
+	align-items: baseline;
+	margin: 30px 0px 30px 0px;
+}
+
+.filtres-items
+{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	height: 50px;
+	font-size: 20px;
+	border: 2px solid lightgray;
+	border-radius: 40px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.filtres h2
+{
+	font-size: 20px;
+}
+
+.filtres-items i
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0065fc;
+	background-color: #deebff;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	padding: 25px;
+	margin-left: -4px;
+}
+
+.filtres-items input
+{
+	display: none;
+	margin: 0;
+}
+
+.filtres-items label
+{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 30px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.filtres-items:hover
+{
+	border-color: #0065fc ;
+	color: #0065fc;
+}
+
+.bouton_info
+{
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.bouton_info p
+{
+	display: flex;
+	gap:15px;
+	align-items: center;
+}
+
+.bouton_info i
+{
+	background-color: white;
+	color: #0065fc;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	border : solid 1px #f2f2f2;
+	border-radius: 100%;
+	align-items: center;
+	justify-content: center;
+	height: 20px;
+	width: 20px;
+	padding: 10px;
+}
+
+/*Hebergements*/
+#hebergements
+{
+	width: 98%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hebergements_a_marseille
+{
+	width: 67%;
+	max-width: 910px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+
+.hebergements_a_marseille h2
+{
+	margin: 0px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+.hebergements_a_marseille p
+{
+	font-weight: bold;
+	margin-top: 40px;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.cardh
+{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+.cardh h3
+{
+	margin: 5px;
+}
+
+.cardh p
+{
+	margin: 5px;
+}
+
+.cardh a
+{
+	width: 220px;
+	/*1*/
+	height: 210px;
+	margin: 0px auto;
+	/*2*/
+	background-color: white;
+	/*3*/
+	border: solid transparent;
+	border-radius: 20px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.cardh figure
+{
+	display: flex;
+	flex-flow: column;
+	padding: 5px;
+	max-width: 220px;
+	margin: 0;
+	padding: 1px;
+}
+
+.cardh p
+{
+	font-weight: lighter;
+}
+
+.cardh img
+{
+	max-width: 220px;
+	height: 130px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+
+.cardh a:hover
+{
+	border-color: #0065fc;
+}
+
+.cardh figcaption
+{
+	border-radius: 20px;
+	color: black;
+	padding: 2px;
+	text-align: left;
+}
+
+.etoiles_bleu
+{
+	color: #0065fc;
+	display: inline;
+	margin-left: 5px;
+}
+
+.etoiles_blanche
+{
+	color: lightgray;
+	display: inline;
+}
+
+/*Les plus populaires*/
+.les_plus_populaires
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+}
+
+.titre_pop
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.cardl
+{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+	row-gap: 20px;
+	padding-bottom: 30px;
+}
+
+.cardl a
+{
+	width: 90%;
+	background-color: white;
+	border: solid transparent;
+	border-radius: 20px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.cardl figure
+{
+	display: flex;
+	align-items: center;
+	height: 140px;
+	max-width: 100%;
+	margin: 0;
+}
+
+.cardl h3
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.cardl p
+{
+	font-weight: lighter;
+	margin: 0px;
+}
+
+.cardl img
+{
+	width: 40%;
+	height: 140px;
+	border-radius: 20px 0px 0px 20px;
+	object-fit: cover;
+}
+
+.cardl a:hover
+{
+	border-color: #0065fc;
+}
+
+.cardl figcaption
+{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	color: black;
+	margin-left: 10px;
+	padding: 2px;
+	text-align: left ;
+}
+
+.les_plus_populaires .etoiles_bleu
+{
+	margin-top: 50px;
+}
+
+/*Activités à Marseille*/
+#activites
+{
+	width: 100%;
+	max-height: 900px;
+	margin-top: 30px;
+}
+
+#activites h2
+{
+	margin-bottom: 20px ;
+}
+
+.carda
+{
+	width: 98%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.port
+{
+	width: 100%;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.port figure
+{
+	height: 500px;
+	width: 100%;
+	margin: 0px;
+}
+
+.port h3
+{
+	margin-left : 5px;
+	margin-top: 10px;
+}
+
+.port img
+{
+	width: 100%;
+	height: 450px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover ;
+}
+
+.port figcaption
+{
+	width: 100%;
+	color: black;
+	margin: 15px;
+}
+
+.parc_national
+{
+	width: 100%;
+	height: 500px;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.parc_national figure
+{
+	height: 500px;
+	width: 100%;
+	margin: 0px;
+}
+
+.parc_national h3
+{
+	margin-left : 5px;
+	margin-top: 10px;
+}
+
+.parc_national img
+{
+	width: 100%;
+	height: 450px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+
+.parc_national figcaption
+{
+	width: 100%;
+	color: black;
+	margin: 5px;
+}
+
+.fort_pomegues
+{
+	width: 100%;
+	height: 320px;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.fort_pomegues figure
+{
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+}
+
+.fort_pomegues h3
+{
+	margin-left : 5px;
+	margin-top: 10px;
+}
+
+.fort_pomegues img
+{
+	width: 100%;
+	height: 270px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+
+.fort_pomegues figcaption
+{
+	width: 100%;
+	color: black;
+	margin: 10px;
+}
+
+.parc_longchamp
+{
+	width: 100%;
+	height: 220px;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.parc_longchamp figure
+{
+	height: 220px;
+	width: 100%;
+	margin: 0px;
+}
+
+.parc_longchamp h3
+{
+	margin-left : 5px;
+	margin-top: 10px;
+}
+
+.parc_longchamp img
+{
+	width: 100%;
+	height: 170px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+
+.parc_longchamp figcaption
+{
+	max-width: 100%;
+	color: black;
+	margin: 10px;
+}
+
+.ile_frioul
+{
+	width: 100%;
+	height: 150px;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.ile_frioul figure
+{
+	height: 150px;
+	width: 100%;
+	margin: 0px;
+}
+
+.ile_frioul h3
+{
+	margin-left : 5px;
+	margin-top: 10px;
+}
+
+.ile_frioul img
+{
+	width: 100%;
+	height: 110px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+
+.ile_frioul figcaption
+{
+	width: 100%;
+	color: black;
+	margin: 10px;
+}
+
+.notre_dame
+{
+	width: 100%;
+	height: 250px;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.notre_dame figure
+{
+	height: 250px;
+	width: 100%;
+	margin: 0px;
+}
+
+.notre_dame h3
+{
+	margin-left : 5px;
+	margin-top: 10px;
+}
+
+.notre_dame img
+{
+	width: 100%;
+	height: 200px;
+	border-radius: 20px 20px 0px 0px;
+	object-fit: cover;
+}
+
+.notre_dame figcaption
+{
+	width: 100%;
+	color: black;
+	margin: 10px;
+}
+
+.double
+{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	gap: 30px;
+	width: 20%;
+}
+
+.simple
+{
+	display: flex;
+	width: 20%;
+	min-width: 215px;
+}
+
+#activites .carda a:hover
+{
+	border: solid transparent;
+}
+
+/*Footer*/
+footer
+{
+	width: 100%;
+	max-width: 1440px;
+	height: 220px;
+	display: flex;
+	gap:250px;
+	padding: 20px;
+	margin-top: 30px;
+	background-color: #f2f2f2;
+}
+
+.card_footer ul
+{
+	height: 90px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	gap:15px;
+	align-items: flex-start;
+	cursor: pointer;
+}
+
+.card_footer
+{
+	margin:0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.card_footer h3
+{
+	margin-bottom: 20px;
+	font-size: 18px;
+}

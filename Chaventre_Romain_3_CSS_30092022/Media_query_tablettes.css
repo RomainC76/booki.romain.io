@@ -1,0 +1,83 @@
+   /* Tablettes*/
+@media screen and (max-width: 992px) and (min-width: 769px)
+{
+	h3
+	{
+		font-size: 18px;
+	}
+
+	.Recherche
+	{
+		width: 100% !important;
+		padding: 20px;
+	}
+
+	.filtres
+	{
+		flex-wrap: wrap;
+	}
+
+	#hebergements
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		gap:20px;
+	}
+
+	.hebergements_a_marseille
+	{
+		width: 100%;
+	}
+
+	.cardh a
+	{
+		height: 240px;
+	}
+
+	.les_plus_populaires
+	{
+		width: 100%;
+		align-items: flex-start;
+	}
+
+	.cardl img
+	{
+		height :200px;
+	}
+
+	.cardl figure
+	{
+		height: 200px;
+	}
+
+	#activites
+	{
+		max-height: none;
+	}
+
+	.carda
+	{
+		gap:10px;
+		flex-wrap: wrap;
+	}
+
+	.carda h3
+	{
+		font-size: 16px;
+	}
+
+	.simple
+	{
+		width: 40%;
+	}
+
+	.double
+	{
+		width: 55%;
+	}
+
+	footer
+	{
+		gap:110px;
+	}
+}
